@@ -1,0 +1,83 @@
+/*Global----------------------------------*/
+body {
+	background-color: #242164;
+	font-family: 'Rubik', san-serif;
+}
+
+h1, h2, h3 {
+	color: #C49EEE;
+}
+h1 {
+	font-size: 60px;	
+}
+h2 {
+	font-style: italic;
+}
+
+header {
+ width: 80%;
+ margin: auto;
+} 
+
+section {
+ width: 80%;
+ margin: auto;
+}
+
+.right {
+	float:right;
+}
+/*----------------------------------------*/
+
+
+/*Scoreboard------------------------------*/
+#scoreboard {
+	min-height: 800px;
+	border-radius: 10px;
+}
+
+.addPlayers{
+	margin-bottom: 20px;	
+}
+/*----------------------------------------*/
+
+
+/*Player Cards----------------------------*/
+.playerCard {
+	margin: 20px;
+	clear:both;
+}
+
+.playerCard well {
+	background-color: #3145A5;
+}
+
+.playerInput {
+	display: inline-block;
+	max-width: 200px;
+}
+
+.playerCard h3 {
+	color: #242164;
+	font-style: normal;
+}
+
+.points{	
+	font-size:50px;
+}
+
+#addPoint, #minusPoint{
+	font-size: 20px;	
+}
+
+/*----------------------------------------*/
+
+/*Footer----------------------------------*/
+footer {
+	width: 80%;
+	margin: auto;
+	color: #F7F2D2;
+	text-align: right;
+	font-size: 12px;
+}
+/*----------------------------------------*/
