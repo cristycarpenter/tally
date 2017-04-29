@@ -80,8 +80,17 @@ function minusPoint(playerCardClicked) {
 }
 
 
-//Listens for adding of player name and runs printPlayerCards.
+//Run printPlayerCards if '+' button is clicked.
 document.getElementById('addPlayerCard').addEventListener('click', printPlayerCards);
+
+//Run printPlayerCards if "return" button is pressed.
+document.getElementById('playerNameInput').addEventListener('keydown', function (e) {
+    var key = e.which || e.keyCode;
+    if (key === 13) { 
+			printPlayerCards();
+    }
+});
+
 
 //Listen for points being added. The target event property returns the element that triggers the event! So e = whatever you clicked. 
 document.addEventListener('click',function(e){
